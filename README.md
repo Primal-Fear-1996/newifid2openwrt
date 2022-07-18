@@ -1,0 +1,2 @@
+# newifid2openwrt
+自编译MT7621路由器OPENWRT固件 包括新3与小米CR660X
