@@ -49,6 +49,11 @@ jobs:
         sudo -E apt-get -qq update
         sudo -E apt-get -qq install $(curl -fsSL git.io/depends-ubuntu-2004)
         sudo -E apt-get -qq install python3-markdown
+        sudo -E apt-get -qq install libtool-bin
+        sudo -E apt-get -qq install libc6
+        sudo -E apt-get -qq install libgcc1
+        sudo -E apt-get -qq install libstdc++5
+        sudo -E apt-get -qq install libstdc++6
         sudo -E apt-get -qq install python-all
         sudo -E apt-get -qq install python-all-dev        
         sudo -E apt-get -qq autoremove --purge
